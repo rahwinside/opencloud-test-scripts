@@ -1,7 +1,9 @@
+from pymysql.cursors import DictCursor
+
 from app import app
 from flaskext.mysql import MySQL
 
-mysql = MySQL()
+mysql = MySQL(cursorclass=DictCursor)
 
 # MySQL configurations
 app.config['MYSQL_DATABASE_USER'] = "tux"
