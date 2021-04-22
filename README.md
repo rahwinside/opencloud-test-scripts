@@ -1,5 +1,5 @@
-# flask-rest-api-boilerplate
-Flask Python Restful API - MySQL Boilerplate
+# OpenCloud Automated Testing Kit
+For OpenCloud 2 (aarch64)
 
 ## Install dependencies
 ```cmd 
