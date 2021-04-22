@@ -24,7 +24,7 @@ def linear_sql_smoke():
             print("OK      ", end=" ")
 
             cursor = cnx.cursor()
-            sql = "INSERT INTO `opencloud`.`linear_smoke` (status) VALUES ('fail')"
+            sql = "INSERT INTO `opencloud`.`linear_smoke` (status) VALUES ('pass')"
             print("INSERT...      ", end=" ")
             cursor.execute(sql)
             cnx.commit()
